@@ -43,7 +43,7 @@ a {
 }
 
 .btn-blue {
-  background-color: #6B72E1;
+  background-color: lightblue;
   color: white;
   padding: 15px 30px;
   border-radius: 8px;
@@ -53,7 +53,7 @@ a {
 }
 
 .btn-blue:hover {
-  background-color: #555bd6;
+  background-color: darkblue;
 }
 
 #sentence {
@@ -110,6 +110,7 @@ a {
 
 .card p{
     padding-left: 20px;
+    font-family: arial;
   }
 
 @media (max-width: 768px) {
@@ -131,5 +132,4 @@ a {
   display: flex;
   flex-direction: column;  
   justify-content: center;
-}
 }
